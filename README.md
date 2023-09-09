@@ -35,8 +35,8 @@ A seguir estão alguns dos principais endpoints disponíveis na aplicação:
 
 - `/auth/login`: Endpoint para autenticar usuários e gerar um JWT.
 - `/auth/register`: Endpoint para registrar novos usuários.
-- `/api/user`: Endpoint acessível apenas a usuários autenticados com a função de "usuário".
-- `/api/admin`: Endpoint acessível apenas a usuários autenticados com a função de "administrador".
+- `/user/`: Endpoint acessível apenas a usuários autenticados com a função de "usuário".
+- `/admin/`: Endpoint acessível apenas a usuários autenticados com a função de "administrador".
 
 ## Uso (Postman/Insomnia) 
 
